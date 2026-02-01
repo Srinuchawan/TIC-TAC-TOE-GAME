@@ -30,7 +30,7 @@ const resetg=() =>{
     
 }
 
-// enble and disable buttons aftre game over 
+// enble and disable buttons after game over 
 const nochnge=() =>{
     for(let box of box_btn){
     box.disabled=true;
@@ -60,7 +60,7 @@ box_btn.forEach((box) => {
     
 }); 
 const showwin=(winner) =>{
-    win_msg.innerText=`CONGRATULATIONS WINNER IS ${winner}`
+    win_msg.innerText=`🎉 Congratulations! 🎊 Winner is ${winner}`
 }
 const checkwin=() =>{
     for(let win of wins){
